@@ -258,7 +258,15 @@ img {
     margin-top: 15px;
   }
 }
-
+@media all and (max-width: 414px){
+	.mobile-menu li > a {
+		font-size: 21px;
+		line-height: 13px;
+	}
+	.mobile-menu li ul li a {
+		font-size: 20px;
+	}
+}
 .mobile-menu li > a {
 	font-size: 30px;
 	color: #222222;
