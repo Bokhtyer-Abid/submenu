@@ -257,7 +257,7 @@ img {
     margin-top: 15px;
   }
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 550px){
 	.mobile-menu li > a {
 		font-size: 21px;
 		line-height: 13px;
