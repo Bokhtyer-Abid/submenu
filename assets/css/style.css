@@ -229,16 +229,16 @@ img {
   padding: 10px 0;
 }
 .mobile-main-header .mobile-menu-toggler .mobile-menu-btn span {
-  width: 25px;
-  height: 2px;
-  display: block;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
-  background-color: #222222;
-  -webkit-transform-origin: left;
-      -ms-transform-origin: left;
-          transform-origin: left;
+	width: 36px;
+	height: 5px;
+	display: block;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	background-color: #222222;
+	-webkit-transform-origin: left;
+	-ms-transform-origin: left;
+	transform-origin: left;
 }
 .mobile-main-header .mobile-menu-toggler .mobile-menu-btn span:nth-child(2), .mobile-main-header .mobile-menu-toggler .mobile-menu-btn span:nth-child(3) {
   margin-top: 5px;
