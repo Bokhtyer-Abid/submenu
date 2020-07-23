@@ -314,19 +314,20 @@ img {
   transition: all 250ms ease-out;
 }
 
-.mobile-menu li.menu-item-has-children .menu-expand i:before {
-  top: 0;
-  width: 100%;
-  content: "";
-  display: block;
-  position: absolute;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-  border-bottom: 1px solid #222222;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
+.mobile-menu li.menu-item-has-children .menu-expand i::before {
+	top: 0;
+	width: 100%;
+	content: "";
+	display: block;
+	position: relative;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	/* transform: rotate(90deg); */
+	border-bottom: 1px solid #222222;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	height: 100%;
 }
 
 .mobile-menu li.menu-item-has-children.active > .menu-expand i:before {
