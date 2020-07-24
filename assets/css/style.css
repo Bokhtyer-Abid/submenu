@@ -268,11 +268,11 @@ img {
 }
 @media all and (max-width: 800px){
 	.mobile-menu li > a {
-		font-size: 38px !important;
-		line-height: 44px !important;
+		font-size: 38px;
+		line-height: 44px;
 	}
 	.mobile-menu li ul li a {
-		font-size: 33px !important;
+		font-size: 33px;
 	}
 }
 .mobile-menu li > a {
